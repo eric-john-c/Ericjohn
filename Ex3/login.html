@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 style="text-align: center;font-style: oblique;color: rgb(0, 35, 99);;">Login pg</h1>
+        <style>
+            form{
+                padding-top: 200px;   
+            }
+           
+        </style>
+    </head>
+    <body background="loginbg.jpg">
+        <script language="javascript">
+            function validate()
+            {
+                var flag=0;
+                if(document.Login.Username.value=="Eric John"||document.Login.password.value=="12345")
+                {
+                    flag=1;
+                }
+                if(flag==1)
+                {
+                    alert("VALID LOGIN");
+                }
+                else
+                {
+                    alert("INVALID LOGIN");
+                    document.Login.focus();
+                }
+            }
+        </script>
+        <div align="center" style="background-color: rgba(1, 113, 133, 0.712);">
+        <form name="Login">
+            Username: <input type="text" name="Username" >
+            <br><br>
+            password: <input type="password" name="password">
+            <br><br>
+            <button type="submit" onclick=validate()><b>Login</b></button>
+            <button type="reset"><b>Reset</b></button>
+            
+        </form>
+        </div>
+    </body>
+</html>
