@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: aliceblue;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        p{
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        input{
+            background-color: #ffffff;
+            border: 1px solid black;
+            opacity: 0.9;
+            transition: width 0.4s ease-in-out;
+        }
+        body{
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body background="carbg.gif" >
+
+    <h1 >Insert Data into DB</h1>
+    <form action="http://localhost:8080/Ex7a/db3" method="post">
+        <div align = "center">
+        <p>Brand Name:</p> 
+        <!-- Create an element with mandatory name attribute,
+        so that data can be transfer to the servlet using getParameter() -->
+        <input type="text" name="Brand"/>
+        <p>Car Type:</p> 
+        <input type="text" name="Type"/>
+        <p>Top Speed:</p> 
+        <input type="text" name="Top_speed"/>
+        <br/><br/>
+        <input type="submit"/>
+        </div>
+    </form>
+</body>
+</html>
