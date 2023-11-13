@@ -1,0 +1,16 @@
+<web-app>   
+
+
+<!-- Program p11_userhitcount.java -->
+    <servlet>
+        <servlet-name>p11user</servlet-name>
+        <servlet-class>p11_userhitcount</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p11user</servlet-name>
+        <url-pattern>/userhitcount</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
