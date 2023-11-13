@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars>
+    <car>
+        <brand>Lamborghini</brand>
+        <model>Huracan</model>
+        <type>coupe</type>
+    </car>
+    <car>
+        <brand>Mercedes-Benz</brand>
+        <model>G-Wagon</model>
+        <type>suv</type>
+    </car>
+    <car>
+        <brand>Rolls-Royce</brand>
+        <model>Phantom</model>
+        <type>Sedan</type>
+    </car>
+</cars>
