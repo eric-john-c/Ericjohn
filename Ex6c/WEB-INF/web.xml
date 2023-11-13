@@ -1,0 +1,24 @@
+<web-app>   
+   
+
+<!-- Program p9_u1.java -->
+    <servlet>
+        <servlet-name>p9_u1</servlet-name>
+        <servlet-class>p9_u1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p9_u1</servlet-name>
+        <url-pattern>/url1</url-pattern>
+    </servlet-mapping>
+<!-- Program p9_u2.java -->
+    <servlet>
+        <servlet-name>p9_u2</servlet-name>
+        <servlet-class>p9_u2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p9_u2</servlet-name>
+        <url-pattern>/url2</url-pattern>
+    </servlet-mapping>
+</web-app>
